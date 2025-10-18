@@ -207,11 +207,13 @@ z-index: 3;
 }
 .fourth img{
 z-index: 2;
-transform:translateX(50);
+  left: 58%;
+  height: 294px;
 }
 .five img{
 z-index: 1;
-transform:translateX(50);
+  left: 62%;
+  height: 294px;
 }
 
 
