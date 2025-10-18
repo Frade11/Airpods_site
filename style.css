@@ -154,7 +154,17 @@ body {
   margin-left: 40%;
   font-size: 23px;
 }
-
-
  } 
-
+.gallery{
+  background-color: #EBEBEB;
+  padding: 20px;
+}
+.gallery h2{
+  font-size: 40px;
+  margin-bottom: 80px;
+}
+.image img{
+  width: 900px;
+  height: 394px;
+  border-radius: 30px;
+}
