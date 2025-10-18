@@ -6,11 +6,18 @@ body {
 .header {
   background-image: url("img/headphones.png");
   background-repeat: no-repeat;
-  width: auto;
   height: 1000px;
   background-size: contain;
 }
-
+.content{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1540px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
 .nav {
   display: flex;
   justify-content: flex-end;
@@ -27,7 +34,7 @@ body {
 .tm,
 .tj {
   margin-left: 950px;
-  font-size: 90px;
+  font-size: 70px;
   font-family: Roboto;
   font-weight: bold;
 }
@@ -158,13 +165,53 @@ body {
 .gallery{
   background-color: #EBEBEB;
   padding: 20px;
+  position: relative;
+}
+.img-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items:center;
+  justify-content: center;
+  width: 80%;
+  position: relative;
+  height: 400px;
 }
 .gallery h2{
   font-size: 40px;
   margin-bottom: 80px;
 }
 .image img{
+  position: absolute;
   width: 900px;
   height: 394px;
   border-radius: 30px;
+  top: 0;
+  left: 50%;
+  transform: translateX(-35%); 
 }
+.first img{
+z-index: 1;
+transform:translateX(50);
+}
+.second img{
+z-index: 2;
+transform:translateX(50);
+}
+.third img{
+z-index: 3;
+}
+.fourth img{
+z-index: 2;
+transform:translateX(50);
+}
+.five img{
+z-index: 1;
+transform:translateX(50);
+}
+
+
+
+
+
+
