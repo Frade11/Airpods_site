@@ -193,12 +193,14 @@ body {
   transform: translateX(-35%); 
 }
 .first img{
-z-index: 1;
-transform:translateX(50);
+  z-index: 1;
+  left: 39%;
+  height: 294px;
 }
 .second img{
 z-index: 2;
-transform:translateX(50);
+  left: 43%;
+  height: 294px;
 }
 .third img{
 z-index: 3;
