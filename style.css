@@ -205,11 +205,13 @@ body {
   z-index: 1;
   height: 294px;
   transform: translateX(-15%); 
+  top: 14%;
 }
 .second img{
 z-index: 2;
-    transform: translateX(-10%); 
-  height: 294px;
+  transform: translateX(-10%); 
+    top: 5%;
+  height: 354px;
 }
 .third img{
 z-index: 3;
@@ -217,12 +219,15 @@ z-index: 3;
 .fourth img{
 z-index: 2;
   transform: translateX(10%); 
-    height: 294px;
+    top: 5%;
+  height: 354px;
 }
 .five img{
 z-index: 1;
   transform: translateX(15%); 
   height: 294px;
+    top: 14%;
+
 }
 
 
