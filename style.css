@@ -185,6 +185,8 @@ body {
   width: 80%;
   position: relative;
   height: 400px;
+  max-width: 800px;
+  margin: 0 auto;
 }
 .gallery h2{
   font-size: 40px;
@@ -197,17 +199,16 @@ body {
   height: 394px;
   border-radius: 30px;
   top: 0;
-  left: 50%;
-  transform: translateX(-35%); 
+  left: 0;
 }
 .first img{
   z-index: 1;
-  left: 39%;
   height: 294px;
+  transform: translateX(-15%); 
 }
 .second img{
 z-index: 2;
-  left: 43%;
+    transform: translateX(-10%); 
   height: 294px;
 }
 .third img{
@@ -215,12 +216,12 @@ z-index: 3;
 }
 .fourth img{
 z-index: 2;
-  left: 58%;
-  height: 294px;
+  transform: translateX(10%); 
+    height: 294px;
 }
 .five img{
 z-index: 1;
-  left: 62%;
+  transform: translateX(15%); 
   height: 294px;
 }
 
