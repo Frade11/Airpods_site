@@ -13,10 +13,10 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
-  max-width: 1540px;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+  overflow: hidden;
 }
 .nav {
   display: flex;
@@ -30,13 +30,21 @@ body {
 .center-text {
   margin-top: 200px;
 }
-.ts,
+/* .ts,
 .tm,
 .tj {
   margin-left: 950px;
   font-size: 70px;
   font-family: Roboto;
   font-weight: bold;
+} */
+.center-text{
+    margin-left: 950px;
+  font-size: 70px;
+  font-family: Roboto;
+  font-weight: bold;
+    width: 25%;
+
 }
 .products {
   font-size: 50px;
